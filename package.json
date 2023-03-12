@@ -1,0 +1,31 @@
+{
+  "name": "desafio-entregable-modulo-1",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node ./src/app",
+    "start:nodemon": "nodemon ./src/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasgimenezagustin/back-end-primera-entrega.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiasgimenezagustin/back-end-primera-entrega/issues"
+  },
+  "homepage": "https://github.com/matiasgimenezagustin/back-end-primera-entrega#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "mongoose": "^7.0.1"
+  }
+}
